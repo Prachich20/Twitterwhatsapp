@@ -1,0 +1,84 @@
+.body {
+
+}
+.table {
+     background-image: url("img/Twitter-Background.png");
+     background-repeat: no-repeat;
+     background-position: top;
+     /*border: 2px solid black;*/
+     width:1200px;
+     height:700px;
+     margin:auto
+ }
+
+.td {
+    text-align:centre;
+    /*border: 2px solid black;*/
+    width: 50%;
+    height:100px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.h1{
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color:#e4685d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.tb10 {
+	background-image:url(images/form_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width: 230px;
+	color:#333333;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;
+	font-family:tahoma, arial, sans-serif;
+}
+
+.topright {
+    position: absolute;
+    right: 10;
+    top:  10;
+    display: block;
+    height: 125px;
+    width: 125px;
+    background: url(TRbanner.gif) no-repeat;
+    text-indent: -999em;
+    text-decoration: none;
+}
+.img {
+    width:550px;
+    height:250px;
+}
